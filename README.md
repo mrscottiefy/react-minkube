@@ -1,13 +1,11 @@
-## Dockerise a React App to Dockerhub 
-## Deploy the React App on a local Minikube Kubernetes Cluster 
-## Apply a rolling update on existing deployment/pods from Dockerhub.
+# Dockerise a React App and Deploy to Minikube (Local Kubernetes) and Apply Rolling Updates from Dockerhub.
 
 ### Create a React App  
 ``` 
 cd <to workspace>
 npx create-react-app react-minikube
 ```
-### Build React App  
+### Build React App Production Grade 
 `npm run-script build`
 
 ### Build Docker Image, Tag (with version) and Push to Dockerhub
